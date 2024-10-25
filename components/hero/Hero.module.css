@@ -1,0 +1,36 @@
+
+.cardmain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:10px;
+    text-align: left;
+}
+.imgdiv{
+    width:100%;
+    height: 100%;
+    max-height: 300px;
+    padding: 20px;
+}
+.imgdiv img{
+    width: 100%;
+    height: inherit;
+}
+
+@media screen and (max-width:576px) {
+    .cardmain{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:10px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .cardmain{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:10px;
+        text-align: left;
+    }
+}
+

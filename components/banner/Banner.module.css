@@ -1,0 +1,27 @@
+/* components/Banner.module.css */
+.bannerdiv{
+    padding: 0 0px;
+    text-align: center;
+    margin-top: -32px;
+    height: calc(100vh - 60px);
+}
+.banner {
+    background-image: url('./banner.jpg'); /* Change to the URL of your banner image */
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 60px);    
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .banner h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .banner p {
+    font-size: 1.25rem;
+    margin-top: 10px;
+  }
+  
